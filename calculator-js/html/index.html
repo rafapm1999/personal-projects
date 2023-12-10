@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../style/calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main-calculator">
+      <div class="calculator">
+        <div class="screen">
+          <div class="data-screen">
+            <div class="data"><span id="data"></span></div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <table>
+            <tbody>
+              <tr>
+                <td id="btn-ac" data-action="reset">AC</td>
+                <td id="btn-del" data-action="delete">DEL</td>
+                <td id="btn-percent" class="signals" data-action="percent">%</td>
+                <td id="btn-div" class="signals" data-action="divide">/</td>
+              </tr>
+              <tr>
+                <td id="btn-7">7</td>
+                <td id="btn-8">8</td>
+                <td id="btn-9">9</td>
+                <td id="btn-mult" class="signals" data-action="multiply">*</td>
+              </tr>
+              <tr>
+                <td id="btn-4">4</td>
+                <td id="btn-5">5</td>
+                <td id="btn-6">6</td>
+                <td id="btn-min" class="signals" data-action="minus">-</td>
+              </tr>
+              <tr>
+                <td id="btn-1">1</td>
+                <td id="btn-2">2</td>
+                <td id="btn-3">3</td>
+                <td id="btn-sum" class="signals" data-action="sumatory">+</td>
+              </tr>
+              <tr>
+                <td id="btn-0">0</td>
+                <td id="btn-00">00</td>
+                <td id="btn-point" class="signals" data-action="decimals">.</td>
+                <td id="btn-equal" class="signals" data-action="equal">=</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="../js/calculator.js"></script>
+  </body>
+</html>
